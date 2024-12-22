@@ -1,0 +1,218 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    display: inline;
+}
+
+.n1{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+}
+
+.im{
+    float: left;
+    padding-left: 1000px;
+}
+
+.n1 p{
+    color: white;
+    font-size: 20px;
+}
+
+.n2{
+    display: inline;
+    justify-content: center;  
+    color: blue;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    font-size: 25px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    color: blue;
+    font-size: 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    font-size: 50px;
+    background-image: url(ayoub-new-background-logo-01.jpg);
+    color: white;
+}
+
+section{
+    display: flex;
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(177, 172, 172);
+    margin: 50px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.card:hover{
+    transform: translateY(-5%);
+}
+
+.oblique1{
+    position: absolute;
+    top: 13.5%;
+    right: -4.5%;
+    width: 28%;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    transform: rotate(45deg);
+    justify-content: center;
+    transform-origin: top right;
+    border-radius: 5px 5px 0 0;
+    background-color: chocolate;
+}
+
+.oblique2{
+    position: absolute;
+    top: 13.5%;
+    right: -4.5%;
+    width: 28%;
+    color: black;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    transform: rotate(45deg);
+    justify-content: center;
+    transform-origin: top right;
+    border-radius: 5px 5px 0 0;
+    background-color: silver;
+}
+
+.oblique3{
+    position: absolute;
+    top: 13.5%;
+    right: -4.5%;
+    color: black;
+    width: 28%;
+    padding: 5px 15px;
+    font-size: 14px;
+    object-fit: contain;
+    font-weight: bold;
+    transform: rotate(45deg);
+    justify-content: center;
+    transform-origin: top right;
+    border-radius: 5px 5px 0 0;
+    background-color: gold;
+}
+
+.debut{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    height: 100px;
+}
+
+h1{
+    padding-left: 150px;
+}
+
+.contenu button{
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+}
+
+.contenu button:hover{
+    color: wheat;
+}
+
+.prix{
+    font-size: 30px;
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.contenu p{
+    font-size: 20px;
+    border-bottom: 1px;
+    border-top: 1px;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    display: flex;
+    height: 350px;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.button{
+    width: 250px;
+}
+
+.button button{
+    color: black;
+    background-color: white;
+    justify-content: center;
+    width: 250px;
+    height: 30px;
+
+}
+
+a{
+    color: white;
+    bottom: 1px;
+    text-decoration: none;
+}
+.n3{
+    padding: 10px;
+}
+
+.n4{
+    padding: 20px;
+}
+
+.big{
+    border-radius: 5px;
+    border: 4px solid rgb(4, 4, 254);
+}
+
+.n5{
+    padding: 10px;
+}
+
+.n6{
+    padding: 15px;
+}

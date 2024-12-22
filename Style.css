@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+}
+
+.n1{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+}
+
+.im{
+    float: left;
+    padding-left: 1000px;
+}
+
+.n1 p{
+    color: white;
+    font-size: 20px;
+}
+
+.n2{
+    display: inline;
+    justify-content: center;  
+    color: blue;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    font-size: 25px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    color: blue;
+    font-size: 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    margin: 50px;
+}
+
+.b{
+    margin: 40px 100px;
+}
+
+.bix{
+    padding: 30px;
+    background-color: #007bff;
+    justify-content: center;
+}
+
+.bix2{
+    background-color: rgb(25, 22, 22);
+    padding: 5px;
+    justify-content: center;
+}
+
+.bix2 a{
+    padding: 20px;
+}
+
+main{
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    display: flex;
+    height: 350px;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.button{
+    width: 250px;
+}
+
+.button button{
+    color: black;
+    background-color: white;
+    justify-content: center;
+    width: 250px;
+    height: 30px;
+
+}
+
+a{
+    color: white;
+    bottom: 1px;
+    text-decoration: none;
+}
+
+.n3{
+    padding: 10px;
+}
+
+.n4{
+    padding: 20px;
+}
+
+.big{
+    border-radius: 5px;
+    border: 4px solid rgb(4, 4, 254);
+}
+
+.n5{
+    padding: 10px;
+}
+
+.n6{
+    padding: 15px;
+}
